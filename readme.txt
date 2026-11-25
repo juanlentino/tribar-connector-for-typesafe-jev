@@ -2,9 +2,9 @@
 Contributors: juanml
 Tags: ai, classification, api, connector, automation
 Requires at least: 7.0
-Tested up to: 7.1
+Tested up to: 7.2
 Requires PHP: 7.4
-Stable tag: 0.4.6
+Stable tag: 0.4.7
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -162,6 +162,9 @@ Filters: `jevc_default_model`, `jevc_http_timeout`, `jevc_request_payload`, `jev
 
 == Changelog ==
 
+= 0.4.7 =
+* Tested up to WordPress 7.2 and PHP 8.6. No code change.
+
 = 0.4.6 =
 * Renamed to Tribar Connector for TypeSafe Jev, with the slug tribar-connector-for-typesafe-jev, at the directory review's request. Function names, hooks, setting names and the REST namespace are unchanged.
 * New: pass `'long_context' => true` to `JevConnector\ask()` to send one request with TypeSafe's long-context header.
@@ -219,6 +222,9 @@ Filters: `jevc_default_model`, `jevc_http_timeout`, `jevc_request_payload`, `jev
 * First release: Connectors API registration, client, question builders, response reader, response cache, and REST proxy.
 
 == Upgrade Notice ==
+
+= 0.4.7 =
+Compatibility release for WordPress 7.2. No code change.
 
 = 0.4.6 =
 New plugin name and slug. Nothing to change in code that calls the plugin.
