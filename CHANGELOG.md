@@ -6,6 +6,18 @@ All notable changes to this project are documented here. The format follows
 
 ## [Unreleased]
 
+## [0.4.7] - 2026-11-25
+
+Compatibility release. No code change.
+
+### Changed
+
+- `Tested up to: 7.2`. Checked against the WordPress 7.2 field guide: the
+  plugin uses none of the changed surfaces (no scripts or jQuery, no media
+  handling, no abilities, no admin menu icons, no CORS headers; its `jev/v1`
+  routes are unaffected by the revision and comment-status REST changes).
+- CI runs the test suite on PHP 8.6.
+
 ### Added
 
 - Approved for the WordPress.org Plugin Directory on 2026-10-28. The Release
